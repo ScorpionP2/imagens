@@ -1,5 +1,7 @@
 package com.example.app_imc;
 
+
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,13 +18,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void  abrirApp(View view){
-        if(view==findViewById(R.id.btnAbrirImc)){
-            Intent intent = new Intent(this,CalcularIMC.class);
-            startActivity(intent);
+                if(view==findViewById(R.id.btnAbrirVerImagem)){
+                    Intent intent = new Intent(this,VerImagens.class);
+                    startActivity(intent);
         }
-        else{
-            Intent intent = new Intent(this,VerImagens.class);
-            startActivity(intent);
-        }
+
     }
 }

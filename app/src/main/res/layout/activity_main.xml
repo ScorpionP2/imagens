@@ -15,14 +15,6 @@
        android:layout_gravity="center"
        >
 
-       <Button
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:id="@+id/btnAbrirImc"
-           android:text="Abrir app IMC"
-           android:onClick="abrirApp"
-           />
-
 
        <Button
            android:id="@+id/btnAbrirVerImagem"
